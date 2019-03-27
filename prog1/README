@@ -1,0 +1,25 @@
+
+README file for List ADT:
+---------------------------
+Author: Alexey A. Munishkin
+
+File name: README
+Date: 4/16/2013
+Class: CMPS 101
+
+NOTES:
+------------------------------------------
+The List ADT contains the following files:
+README      This documentation file.
+List.h      The header file describing the ADT operations.
+List.c	    The implementation of the List ADT.
+Listdr.c    A simple program that tests out the ADT operations.
+            This program reads input from stdin and assumes that the user knows how to
+            enter the data correctly. Error messages are written to stdout.
+store.c     The user's implementation of the module 'List'. Similiar to the driver program,
+            but it reads data from one or more files -- not stdin -- and handles errors apporiately
+            by writing to stderr.
+Makefile    A makefile that complies the module, driver, and user program;
+	    (1) it makes these object files List.o Listdr.o and an executionable testList.
+	    (2) it makes these object files List.o store.o and an executionable userList.
+            NOTE: make or gmake all compiles and links the object files into the executionables 
